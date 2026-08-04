@@ -18,7 +18,7 @@ You will leave with more than knowledge. You will leave with a public, runnable 
 
 **Primary**
 - Developers, solution architects, AI engineers, and technical leads with intermediate experience
-- People who want structured mastery of Grok Build, multi-agent orchestration, tools/MCP/skills, real-time grounding, and production reliability
+- People seeking structured mastery of Grok Build, multi-agent orchestration, tools/MCP/skills, real-time grounding, and production reliability
 
 **Secondary**
 - Teams evaluating Grok for production use who need internal upskilling
@@ -26,34 +26,35 @@ You will leave with more than knowledge. You will leave with a public, runnable 
 
 **Not primary:** Absolute beginners or pure prompt engineers seeking a quick badge.
 
-## Path Structure (Overview)
+## Path Structure
 
-The path is modular. Each module requires a real artifact. Progress is gated by evidence of work, not by time spent.
+| Module | Focus | Required Artifact |
+|--------|-------|-------------------|
+| 0 | Foundations & Setup | Working setup + notes |
+| 1 | Grok Build Fluency & Configuration | Configured project + design decisions |
+| 2 | Tools, Skills, Plugins & MCP | Working tool/MCP agent + docs |
+| 3 | Multi-Agent Orchestration | Runnable multi-agent system |
+| 4 | Reliability, Grounding & Evaluation | Hardened system + evaluation notes |
+| 5 | Integration, Scenarios & Capstone Prep | Scenario responses + ADRs |
+| 6 | Portfolio Capstone | Final reviewed portfolio package |
 
-Typical high-level flow:
-
-1. **Foundations** — Thinking in systems with Grok
-2. **Tools & Grounding** — Reliable tool use, MCP, skills, and real-time data
-3. **Multi-Agent Orchestration** — Designing and coordinating specialist agents
-4. **Production Patterns** — Reliability, evaluation, observability, and cost control
-5. **Architecture & Judgment** — Making hard trade-offs under constraints
-6. **Portfolio Capstone** — A reviewed, runnable system that demonstrates the full stack
-
-Exact module titles and artifacts will evolve; the principle remains constant: **no artifact, no progress**.
+See [docs/modules.md](docs/modules.md) for full learning objectives.
 
 ## Design Principles
 
-- Artifact-first
+- Artifact over attendance
 - Public proof over private certificates
 - Rubric-based human review
-- High signal-to-noise
-- Practitioner-to-practitioner tone
+- Sequential unlocking with evidence gates
+- Practitioner-to-practitioner density
 
-## Repository Purpose
+## Repository Contents
 
-This repository holds the living curriculum structure, rubrics, example artifacts, and supporting materials for the Grok Systems Builder path.
-
-It is intentionally independent. Validity comes from required artifacts + rigorous review, not from official vendor status.
+- `docs/modules.md` — detailed module objectives and artifacts
+- `docs/artifact-standards.md` — minimum bars and portfolio expectations
+- `docs/competency-domains.md` — what “good” looks like across the path
+- `docs/principles.md` — core design principles
+- `docs/review-rubric.md` — portfolio review dimensions
 
 ## Related
 
